@@ -1,0 +1,110 @@
+.p {
+    font-family: "Bebas Neue";
+    margin: 0;
+}
+
+.main-page {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #ffe6d8;
+}
+
+.top-bar {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.top-bar-buttons {
+    margin:  0;
+    align-content: center;
+    flex: 1;
+}
+
+.top-bar-button-1 {
+    margin-left: 20px;
+    display: inline-block;
+    letter-spacing: 2px;
+    border: none;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 200;
+}
+
+.top-bar-button-2,
+.top-bar-button-3,
+.top-bar-button-4 {
+    margin-left: 40px;
+    display: inline-block;
+    letter-spacing: 2px;
+    border: none;
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.top-bar-button-1,
+.top-bar-button-2,
+.top-bar-button-3,
+.top-bar-button-4:hover{
+    cursor: pointer;
+}
+
+.git {
+    margin: 0;
+}
+
+.git-button {
+    height: 50px;
+    width: 50px;
+    border: solid;
+    background-color: black;
+    border-radius: 25px;
+    border-color: black;
+    transition: 200ms;
+}
+
+.git-button:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 100);
+    cursor: pointer;
+}
+
+.main-panel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 840px;
+    flex-direction: row;
+}
+
+.main-title{
+    font-size: 80px;
+    letter-spacing: 10px;   
+}
+
+.scroll-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-button{
+    height: 50px;
+    width: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 30px;
+    background-color: black;
+    transition: 200ms;
+}
+
+.scroll-button:hover{
+    width: 150px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 70);
+}
